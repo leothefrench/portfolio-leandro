@@ -7,7 +7,7 @@ import { Clients  } from '../Clients/Clients'
 export const AppRouter = () => {
   return (
     <Routes>
-        <Route path='/home' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/clients' element={<Clients />} />

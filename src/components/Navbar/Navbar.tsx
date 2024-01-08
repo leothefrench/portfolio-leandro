@@ -1,4 +1,5 @@
 import './navbar.css'
+
 import { NavLink } from 'react-router-dom'
 import { FaMobile } from 'react-icons/fa'
 
@@ -14,7 +15,7 @@ const Navbar = () => {
         <NavLink to="/clients" className="isActive">Clients</NavLink>
       </div>
       <button className="btn-nav-contact"><FaMobile className="icon"/>Contactez-moi</button>
-    </nav>
+    </nav> 
   ); 
 }
 export default Navbar
