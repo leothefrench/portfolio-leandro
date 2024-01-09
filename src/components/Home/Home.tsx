@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <section className="hero-section">
       <div className="left-hero-section">
-        <span className="hello">Hello, </span>
+        <span className="hello">Hello</span><br />
         <span className="title">
           Je suis<span className="title-name"> Léandro</span>
           <br />
@@ -20,7 +20,7 @@ export const Home = () => {
         </p>
         <Link to="/">
           <button className="btn-hireMe">
-            <PiSuitcaseSimpleBold className="suitacase" />
+            <PiSuitcaseSimpleBold className="suitecase" />
             Hire Me
           </button>
         </Link>

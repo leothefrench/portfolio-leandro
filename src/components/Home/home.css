@@ -1,9 +1,10 @@
 .hero-section {
     height: cal(100vh - 5rem);
-    width: 100%;
-    /* max-width: 75%; */
+    width: 100vw;
+    max-width: 80rem;
     margin: 0 auto;
     overflow: hidden;
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,6 +13,11 @@
 .left-hero-section {
     height: 100%;
     font-size: 2rem;
+}
+
+.hello {
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 
 .right-hero-section {
@@ -24,6 +30,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* position: absolute; */
+}
+
+.title {
+    font-weight: 700;
 }
 
 .title-name {
@@ -34,7 +45,7 @@
     font-size: .9rem;
     color: rgb(156, 152, 152);
     margin: 1rem auto;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .btn-hireMe {
@@ -48,6 +59,6 @@
     background-color: #fff;
 }
 
-.suitacase {
+.suitecase {
     margin-right: 1rem;
 }
