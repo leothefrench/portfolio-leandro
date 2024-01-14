@@ -7,7 +7,8 @@ export const Home = () => {
   return (
     <section className="hero-section">
       <div className="left-hero-section">
-        <span className="hello">Hello</span><br />
+        <span className="hello">Hello</span>
+        <br />
         <span className="title">
           Je suis<span className="title-name"> Léandro</span>
           <br />
@@ -25,11 +26,13 @@ export const Home = () => {
           </button>
         </Link>
       </div>
-      <img
-        src={myface}
-        alt="photo Léandro Da Silva"
-        className="right-hero-section"
-      />
+      <div className='div-myface'>
+        <img
+          src={myface}
+          alt="photo Léandro Da Silva"
+          className="right-hero-section"
+        />
+      </div>
     </section>
   );
 }

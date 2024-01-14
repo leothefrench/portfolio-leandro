@@ -1,0 +1,25 @@
+.about-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80rem;
+    margin: auto;
+}
+
+.left-about-section {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.a-propos-text {
+    width: 60%;
+    font-weight: 300;
+}
+
+.titre_h2,
+.titre_h3,
+.paragraphe {
+    margin-bottom: 1rem;
+}
