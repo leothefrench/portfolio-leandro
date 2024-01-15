@@ -1,14 +1,11 @@
 .hero-section {
-    height: cal(100vh - 5rem);
-    width: 100vw;
-    max-width: 80rem;
-    margin: 0 auto;
-    overflow: hidden;
     position: relative;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-}
+    padding: 10px 10% 0;
+} 
 
 .left-hero-section {
     height: 100%;
@@ -22,19 +19,23 @@
 
 .right-hero-section {
     height: 400px;
+    outline: 1px solid #fff;
+    outline-offset: 10px;
     border-radius: 50%;
     margin-top: 5rem;
     z-index: -1;
-    object-fit: cover;
     font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* position: absolute; */
+    box-shadow: 0 0 5px #DFEE3D, 0 0 25px #DFEE3D, 0 0 50px #DFEE3D, 0 0 75px #DFEE3D;
 }
 
 .title {
     font-weight: 700;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
 }
 
 .title-name {
@@ -48,17 +49,61 @@
     font-weight: 400;
 }
 
+.link-to-hireMe {
+    text-decoration: none;
+}
+
 .btn-hireMe {
-    padding: .9rem 2rem;
+    padding: .7rem 1.7rem;
     border-radius: 1.2rem;
     border: none;
-    margin-top: 1rem;
     font-size: 1.1rem;
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #DAE472;
+}
+
+.btn-hireMe:hover {
+  box-shadow: 0 0 5px #DFEE3D,0 0 25px #DFEE3D,0 0 50px #DFEE3D,0 0 100px #DFEE3D,0 0 200px #DFEE3D;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .suitecase {
     margin-right: 1rem;
+    text-decoration: none;
+}
+
+.bx {
+    color: #fff;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.rounded-icon-linkedin {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.rounded-icon-linkedin:hover {
+  box-shadow: 0 0 5px #DFEE3D,0 0 25px #DFEE3D,0 0 50px #DFEE3D,0 0 100px #DFEE3D,0 0 200px #DFEE3D;
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }

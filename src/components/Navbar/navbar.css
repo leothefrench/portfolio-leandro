@@ -1,7 +1,8 @@
 .navbar {
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
+  height: 15vh;
   width: 100%;
   padding: 20px 10%;
   display: flex;
@@ -16,6 +17,7 @@
   font-size: 1rem;
   text-decoration: none;
   font-weight: 500;
+  animation: slideToRight 1s ease;
 }
 
 .navbar-menu a {
@@ -25,6 +27,9 @@
   text-decoration: none;
   margin-left: 35px;
   transition: .3s;
+  /* animation */
+  opacity: 0;
+  animation: slideToTop .4s ease forwards;
 }
 
 .navbar a:hover {
@@ -56,4 +61,26 @@
   height: 1.1rem;
   margin-right: .5rem;
   color: #363634;
+}
+
+@keyframes slideToRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideToTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }

@@ -19,20 +19,26 @@ export const Home = () => {
           <br /> l'utilisation de la sainte trinité du web, HTML, CSS, JS et
           React
         </p>
-        <Link to="/">
-          <button className="btn-hireMe">
-            <PiSuitcaseSimpleBold className="suitecase" />
-            Hire Me
-          </button>
-        </Link>
+        <div className="social-link">
+          <Link to="/" className="link-to-hireMe">
+            <button className="btn-hireMe">
+              <PiSuitcaseSimpleBold className="suitecase" />
+              Hire Me
+            </button>
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/léandro-da-silva/"
+            target="_blank"
+          >
+            <i className="bx bxl-linkedin-square rounded-icon-linkedin"></i>
+          </Link>
+        </div>
       </div>
-      <div className='div-myface'>
         <img
           src={myface}
           alt="photo Léandro Da Silva"
           className="right-hero-section"
         />
-      </div>
     </section>
   );
 }

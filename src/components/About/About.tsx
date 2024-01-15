@@ -4,11 +4,13 @@ import myface from '../../assets/my-face.jpg'
 export const About = () => {
   return (
     <section className="about-container">
+    <div>
       <img
         src={myface}
         alt="photo Léandro Da Silva"
         className="left-about-section"
       />
+    </div>
       <div className="a-propos-text">
         <h2 className="titre_h2">A Propos de moi</h2>
         <h3 className="titre_h3">Développeur Front-End</h3>
@@ -26,7 +28,7 @@ export const About = () => {
           commandes.
         </p>
         <p className="paragraphe">
-          Suite à une formation en distanciel avec la société OpenClassrooms sur
+          Suite à une formation en distancielle avec la société OpenClassrooms sur
           une durée de 14 mois, j'ai pu réaliser de nombresux projets projets
           professionalisant qui m'ont permis de faire croîte mes connaissances
           et mes compétences principalement sur les technologies front-end
