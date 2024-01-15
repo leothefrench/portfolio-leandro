@@ -4,7 +4,7 @@ import myface from '../../assets/my-face.jpg'
 export const About = () => {
   return (
     <section className="about-container">
-    <div>
+    <div className='container-img'>
       <img
         src={myface}
         alt="photo Léandro Da Silva"
@@ -12,7 +12,7 @@ export const About = () => {
       />
     </div>
       <div className="a-propos-text">
-        <h2 className="titre_h2">A Propos de moi</h2>
+        <h2 className="titre_h2">A Propos <span className='de-moi'>de moi</span></h2>
         <h3 className="titre_h3">Développeur Front-End</h3>
         <p className="paragraphe">
           Après une carrière de technico-commercial dans la vente principalement

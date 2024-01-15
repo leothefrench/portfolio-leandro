@@ -7,9 +7,16 @@
     margin: auto;
 }
 
-.left-about-section {
-    width: 150px;
+.container-img {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px #DFEE3D, 0 0 25px #DFEE3D, 0 0 50px #DFEE3D, 0 0 75px #DFEE3D;
+}
+
+.left-about-section {
+    width: 100%;
     object-fit: cover;
 }
 
@@ -18,10 +25,18 @@
     font-weight: 300;
 }
 
+.de-moi {
+    color: #DAE472;
+}
+
 .titre_h2,
 .titre_h3,
 .paragraphe {
     margin-bottom: 1rem;
+}
+
+.titre_h3 {
+    margin-bottom: 2rem;
 }
 
 .paragraphe {
