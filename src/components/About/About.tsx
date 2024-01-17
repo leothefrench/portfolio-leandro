@@ -29,14 +29,13 @@ export const About = () => {
         </p>
         <p className="paragraphe">
           Suite à une formation en distancielle avec la société OpenClassrooms sur
-          une durée de 14 mois, j'ai pu réaliser de nombresux projets projets
-          professionalisant qui m'ont permis de faire croîte mes connaissances
-          et mes compétences principalement sur les technologies front-end
-          principalement le bibliothèque React.
+          une durée de 14 mois, j'ai pu réaliser de nombresux projets professionalisant qui m'ont permis de faire croîte mes connaissances
+          et mes compétences, principalement sur les technologies front-end
+          tel que la bibliothèque React.
         </p>
         <p className="paragraphe">
           Dorénavant je souhaite travailler sur des projets Web côté front-end
-          avec si possible une intégration de la partie back-end avec Node.JS
+          avec si possible une intégration de la partie back-end avec Node.JS sous 3 à 4 ans.
         </p>
       </div>
     </section>

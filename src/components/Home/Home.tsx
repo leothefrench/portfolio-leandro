@@ -2,12 +2,13 @@ import './home.css'
 import myface from '../../assets/my-face.jpg';
 import { Link } from 'react-router-dom'
 import { PiSuitcaseSimpleBold } from 'react-icons/pi';
+import emailjs from "emailjs-com"
 
 export const Home = () => {
   return (
     <section className="hero-section">
       <div className="left-hero-section">
-        <span className="hello">Hello</span>
+        <span className="hello">Hello,</span>
         <br />
         <span className="title">
           Je suis<span className="title-name"> Léandro</span>

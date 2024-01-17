@@ -1,0 +1,12 @@
+.portfolio {
+    height: 250px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #DFEE3D, 0 0 25px #DFEE3D, 0 0 50px #DFEE3D, 0 0 75px #DFEE3D;
+    /* margin: auto; */
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    margin-left: 20%;
+}

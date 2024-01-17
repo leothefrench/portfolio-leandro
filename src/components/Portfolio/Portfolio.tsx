@@ -2,6 +2,6 @@ import './portfolio.css'
 
 export const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div className='portfolio'>Under construction</div>
   )
 }

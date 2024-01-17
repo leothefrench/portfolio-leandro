@@ -1,7 +1,4 @@
 .navbar {
-  /* position: fixed;
-  top: 0;
-  left: 0; */
   height: 15vh;
   width: 100%;
   padding: 20px 10%;
@@ -27,7 +24,6 @@
   text-decoration: none;
   margin-left: 35px;
   transition: .3s;
-  /* animation */
   opacity: 0;
   animation: slideToTop .4s ease forwards;
 }
