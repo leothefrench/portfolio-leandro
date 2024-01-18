@@ -4,7 +4,6 @@ import { ProSkills } from '../ProSkills/ProSkills';
 
 export const Skills = () => {
   return (
-    <>
       <section className="section-skills">
         <div className="container-skills" id="skills">
           <h1 className="title-skills">Technical Skills</h1>
@@ -36,25 +35,13 @@ export const Skills = () => {
 
         <div className="container-skills">
           <h1 className="title-skills">Professionnal Skills</h1>
-          {/* <div className="radial-bars">
-            <svg x="0px" y="0px" viewBox="0 0 200 200">
-              <circle
-                className="progressive-bar"
-                cx="100"
-                cy="100"
-                r="80"
-              ></circle>
-              <circle className="path path-1" cx="100" cy="100" r="80"></circle>
-            </svg>
-            <div className="percentage">90%</div>
-            <div className="text">Créativité</div>
-          </div> */}
-          <ProSkills percentage="70" text="Professionnel" />
-          <ProSkills percentage="70" text="Communication" />
-          <ProSkills percentage="50" text="Résolution Problème" />
-          <ProSkills percentage="85" text="Travail en équipe" />
+          <div className="radial-bars">
+            <ProSkills changeClassName='path-1' percentage="70" text="Professionnel" />
+            <ProSkills changeClassName='path-2' percentage="70" text="Communication" />
+            <ProSkills changeClassName='path-3' percentage="50" text="Résolution Problème" />
+            <ProSkills changeClassName='path-4' percentage="85" text="Travail en équipe" />
+          </div>
         </div>
       </section>
-    </>
   );
 }

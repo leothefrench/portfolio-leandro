@@ -19,13 +19,17 @@
     margin-bottom: 50px;
 }
 
+.technical-bars {
+    margin-bottom: 1rem;
+}
+
 .bars {
     font-size: 23px;
 }
 
-/* .container-skills .bars {
+.container-skills .bars {
     margin-top: 15px;
-} */
+}
 
 .container-skills .bars:first-child {
     margin-top: 0;
@@ -132,3 +136,20 @@
         opacity: 1;
     }
 }
+
+/* .radial-bars .radial-bar .progression-line {
+    stroke-width: 10;
+    stop-color: #000;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+@keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+} */
+
