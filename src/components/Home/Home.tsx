@@ -20,7 +20,7 @@ export const Home = () => {
           React
         </p>
         <div className="social-link">
-          <Link to="/" className="link-to-hireMe">
+          <Link to="/contact" className="link-to-hireMe">
             <button className="btn-hireMe">
               <PiSuitcaseSimpleBold className="suitecase" />
               Hire Me

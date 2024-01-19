@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       {/* Prévoir un logo dans le futur */}
-      <Link to='/'className='logo'>LDS</Link>
+      <Link to='/' className='logo'>LDS</Link>
       <div className="navbar-menu">
         <NavLink to="/" className="isActive">Home</NavLink>
         <NavLink to="/about" className="isActive">About</NavLink>

@@ -1,5 +1,3 @@
-import './bars.css'
-
 import React from 'react'
 
 interface BarsProps {

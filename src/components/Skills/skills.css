@@ -16,10 +16,11 @@
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .technical-bars {
+    height: 70px;
     margin-bottom: 1rem;
 }
 
@@ -27,9 +28,9 @@
     font-size: 23px;
 }
 
-.container-skills .bars {
+/* .container-skills .bars {
     margin-top: 15px;
-}
+} */
 
 .container-skills .bars:first-child {
     margin-top: 0;
@@ -44,8 +45,8 @@
 }
 
 .container-skills .bars .info span {
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 400;
     animation: showTheText .5s 1s linear forwards;
     opacity: 0;
 }
@@ -137,19 +138,4 @@
     }
 }
 
-/* .radial-bars .radial-bar .progression-line {
-    stroke-width: 10;
-    stop-color: #000;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-    animation: animate-bar 1s linear forwards;
-}
-
-@keyframes animate-bar {
-    100% {
-        stroke-dashoffset: -1;
-    }
-} */
 
