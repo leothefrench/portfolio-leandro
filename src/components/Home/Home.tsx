@@ -29,16 +29,17 @@ export const Home = () => {
           <Link
             to="https://www.linkedin.com/in/léandro-da-silva/"
             target="_blank"
+            aria-label="Lien vers le profil LinkedIn de Léandro Da Silva"
           >
             <i className="bx bxl-linkedin-square rounded-icon-linkedin"></i>
           </Link>
         </div>
       </div>
-        <img
-          src={myface}
-          alt="photo Léandro Da Silva"
-          className="right-hero-section"
-        />
+      <img
+        src={myface}
+        alt="photo Léandro Da Silva"
+        className="right-hero-section"
+      />
     </section>
   );
 }
