@@ -23,7 +23,7 @@ export const Portfolio = () => {
                 </p>
               </div>
             </div>
-            <div className="row">
+            <div className="row"> 
               <div className="layer">
                 <h2 className="titre2">Sport See</h2>
                 <a href="https://sportseebyleo.netlify.app/" target="_blank">
