@@ -18,7 +18,8 @@
 }
 
 .right-hero-section {
-    height: 400px;
+    height: 300px;
+    width: 300px;
     outline: 1px solid #fff;
     outline-offset: 10px;
     border-radius: 50%;
@@ -29,6 +30,7 @@
     flex-direction: column;
     justify-content: center;
     box-shadow: 0 0 5px #DFEE3D, 0 0 25px #DFEE3D, 0 0 50px #DFEE3D, 0 0 75px #DFEE3D;
+    overflow: hidden;
 }
 
 .title {

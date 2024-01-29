@@ -36,6 +36,7 @@ return (
           type="text"
           id="name"
           placeholder="Enter your name"
+          name="name"
         />
       </div>
       <div>

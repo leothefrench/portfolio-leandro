@@ -1,12 +1,38 @@
-.portfolio {
-    height: 250px;
-    width: 500px;
-    border: 1px solid white;
+.portfolio-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.layer img {
+    width: 400px;
+    height: 280px;
     border-radius: 10px;
-    box-shadow: 0 0 5px #DFEE3D, 0 0 25px #DFEE3D, 0 0 50px #DFEE3D, 0 0 75px #DFEE3D;
-    /* margin: auto; */
-    position: absolute;
-    top: 50%;
+}
+
+.row {
+    width: 50%; 
+}
+
+
+.titre1, 
+.titre2 {
+    font-size: 1rem;
+    font-weight: 400;
     text-align: center;
-    margin-left: 20%;
+    padding: 1rem 1rem;
+}
+
+.para-layer {
+    width: 80%;
+    height: 7rem;
+    padding: 1rem 2rem;
+    font-size: 0.85rem;
+    font-weight: 300;
 }
