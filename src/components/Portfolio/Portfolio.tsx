@@ -11,7 +11,7 @@ export const Portfolio = () => {
               <div className="layer">
                 <h2 className="titre2">Kasa</h2>
                 <a href="https://kasabyleo.netlify.app/" target="_blank">
-                  <img src="src/assets/Kasa.jpg" alt="image projet Kasa" />
+                  <img src="src/assets/Kasa.JPG" alt="image projet Kasa" />
                 </a>
                 <p className="para-layer">
                   Kasa est un site de location d’appartements entre particuliers
