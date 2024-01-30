@@ -1,4 +1,6 @@
 import './portfolio.css'
+import kasa from '../../assets/kasa.jpg';
+import sportsee from '../../assets/sportsee.jpg';
 
 export const Portfolio = () => {
   return (
@@ -11,7 +13,7 @@ export const Portfolio = () => {
               <div className="layer">
                 <h2 className="titre2">Kasa</h2>
                 <a href="https://kasabyleo.netlify.app/" target="_blank">
-                  <img src="./src/assets/kasa-image.jpg" alt="image projet Kasa" />
+                  <img src={kasa} alt="image projet Kasa" />
                 </a>
                 <p className="para-layer">
                   Kasa est un site de location d’appartements entre particuliers
@@ -27,7 +29,7 @@ export const Portfolio = () => {
               <div className="layer">
                 <h2 className="titre2">Sport See</h2>
                 <a href="https://sportseebyleo.netlify.app/" target="_blank">
-                  <img src="./src/assets/sport-see-image.jpg" alt="image projet sportSee" />
+                  <img src={sportsee} alt="image projet sportSee" />
                 </a>
                 <p className="para-layer">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
